@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Mohammed Flayyih">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammed Flayyih - Computer Engineering Student | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Portfolio</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">الرئيسية</a></li>
+                <li><a href="#about" class="nav-link">عني</a></li>
+                <li><a href="#skills" class="nav-link">المهارات</a></li>
+                <li><a href="#projects" class="nav-link">المشاريع</a></li>
+                <li><a href="#contact" class="nav-link">التواصل</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Particle Background -->
+    <div id="particles-js"></div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="profile-image-container">
+                    <img src="images/3.jpg" alt="Mohammed Flayyih" class="profile-image">
+                    <div class="image-glow"></div>
+                </div>
+                <h1 class="hero-title">
+                    <span class="greeting">مرحباً، أنا</span>
+                    <span class="name-glow">Mohammed Flayyih</span>
+                </h1>
+                <div class="typing-container">
+                    <span class="typing-text" id="typing-text"></span>
+                    <span class="cursor">|</span>
+                </div>
+                <meta name="description" content="Mohammed Flayyih - Computer Engineering student specializing in Information Systems. Passionate about programming and software development.">
+                <p class="hero-description">مهندس المعلومات متخصص في البرمجة وتطوير التطبيقات</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-secondary">تواصل معي</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding">
+        <div class="container">
+            <h2 class="section-title">عني</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>مهندس معلومات متخصص في تطوير تطبيقات Flutter، شغوف بالبرمجة وبناء الحلول البرمجية المبتكرة. متمكن في Python، C++، Dart، وFlutter، وأسعى لتطبيق خبراتي في مشاريع عالمية تساهم في تحسين التجارب الرقمية</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="3">0</span>
+                            <span class="stat-label">مشروع مكتمل</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="4">0</span>
+                            <span class="stat-label">لغة برمجة</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section-padding">
+        <div class="container">
+            <h2 class="section-title">المهارات</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>المهارات البرمجية</h3>
+                    <div class="skill-item">
+                        <span class="skill-name">Flutter</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95%"></div>
+                        </div>
+                        <span class="skill-percentage">95%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Python</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90%"></div>
+                        </div>
+                        <span class="skill-percentage">90%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">C++</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85%"></div>
+                        </div>
+                        <span class="skill-percentage">85%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Dart</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90%"></div>
+                        </div>
+                        <span class="skill-percentage">90%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section-padding">
+        <div class="container">
+            <h2 class="section-title">المشاريع</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/5.jpg" alt="مشروع 2">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/iraqnumberone/Simple-task-app" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Simple-task-app</h3>
+                        <p>بوت لأتمتة إنشاء الفيديوهات من النصوص باستخدام تقنية تحويل النص إلى كلام وMoviePy</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">MoviePy</span>
+                            <span class="tech-tag">TTS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/4.jpg" alt="SchoolManager">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/iraqnumberone/SchoolManager" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>SchoolManager</h3>
+                        <p>نظام إدارة شامل للمدارس يتضمن إدارة الطلاب والمعلمين والمواد الدراسية والجداول المدرسية مع نظام للتقارير والإحصائيات</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Dart</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding">
+        <div class="container">
+            <h2 class="section-title">تواصل معي</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>mohammedihsanflayyih@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+9647755332607</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Baghdad, Iraq</span>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/mohammed-flayyih-947045259" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/iraqnumberone" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/mohammedlhsan/" class="social-link"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Mohammed Flayyih. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
